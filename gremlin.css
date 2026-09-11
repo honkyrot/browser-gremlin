@@ -1,4 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.character {
+  position: absolute;
+}
+
+.character_center {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .character_sprite {
   position: absolute;
   background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  transform-origin: center center;
+}
+
+.character_clickbox {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  transform-origin: center center;
+}
+
+.debug_outline {
+  position: absolute;
+  border: 1px solid red;
 }
